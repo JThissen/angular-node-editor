@@ -1,0 +1,72 @@
+.node_number{
+    position: absolute;
+    width: 150px;
+    background-color: rgb(43, 43, 43);
+    border: 2px solid rgba(52, 67, 75);
+    border-radius: 5px;
+    z-index: 1;
+    transition: box-shadow 0.1s ease, border 0.1s ease;
+}
+
+.node_number:hover{
+    border: 2px solid rgba(93, 117, 129);
+    box-shadow: 0px 0px 30px rgba(52, 67, 75, 1);
+    transition: box-shadow 0.1s ease, border 0.1s ease;
+}
+
+.node_number-header{
+    width: 100%;
+    height: 25px;
+    background-color: rgba(57, 57, 57, 1);
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: move;
+}
+
+.node_number-contents{
+    display: flex;
+    flex-direction: horizontal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.node_number-input_bar{
+    all: unset;
+    background-color: rgba(57, 57, 57, 1);
+    width: 110px;
+    margin-left: 10px;
+    height: auto;
+    border: 0px solid;
+    padding-left: 5px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+.node_number-input_bar:hover{
+    cursor: text;
+    box-sizing: border-box;
+    background-color: rgba(65, 65, 65, 1);
+}
+
+.node_number-output{
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: 5px;
+    background-color: rgba(30, 30, 30, 1);
+    border: 3px solid rgba(155, 227, 229);
+    border-radius: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.node_number-output:hover{
+    cursor: pointer;
+    border: 3px solid rgba(0, 248, 255);
+}
