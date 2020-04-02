@@ -5,7 +5,7 @@
 Built a basic web-based [node editor](https://jthissen.github.io/Node-editor/) while learning TypeScript/Angular. Double click anywhere on your screen to open to node-creation-menu.
 
 ## GIF
-![](node_editor_gif.gif)
+![](screenshots/node_editor_gif.gif)
 
 ## Screenshots
 
